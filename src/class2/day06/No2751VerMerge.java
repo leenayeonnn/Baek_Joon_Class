@@ -1,7 +1,6 @@
 package class2.day06;
 
 import java.io.*;
-import java.util.Arrays;
 
 public class No2751VerMerge {
     public static void main(String[] args) throws IOException {
