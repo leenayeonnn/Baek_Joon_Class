@@ -1,7 +1,6 @@
 package class2.day07;
 
 import java.io.*;
-import java.util.Arrays;
 
 public class No2775 {
     public static void main(String[] args) throws IOException {
@@ -23,7 +22,6 @@ public class No2775 {
     }
 
     private static int countPeople(int floor, int room) {
-        int result = 0;
         int[] arr = new int[room];
 
         for(int i = 0; i < room; i++){
