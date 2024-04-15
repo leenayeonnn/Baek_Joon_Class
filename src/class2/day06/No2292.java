@@ -12,7 +12,7 @@ public class No2292 {
             bw.write('1');
         } else {
             input--;
-            int count = 1;
+            int count = 2;
             int standard = 6;
             while (!(input == standard || input / standard == 0)) {
                 standard += ++count * 6;
